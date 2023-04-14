@@ -50,7 +50,7 @@ def generate_datavault_tables(csv_file: str,table_name: str,query_binds: str):
     
 if __name__ == "__main__":
     # Set up connection to Azure SQL Server database
-    conn = db.AzureSQLConnector(servername='test', databasename='test', username='test', password='test')
+    conn = db.AzureSQLConnector(servername='TEST', databasename='TEST', username='TEST', password='TEST')
     conn.connect()
     
     # types of datavault tables
